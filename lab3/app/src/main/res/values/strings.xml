@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab 3</string>
+    <string name="uladzislau_kuzhyr">Uladzislau Kuzhyr</string>
+    <string name="registration">Registration</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="phone">Phone</string>
+    <string name="call_taxi">Call Taxi</string>
+    <string name="set_path">Set path</string>
+    <string name="route_will_be_displayed_here">Route will be displayed here</string>
+</resources>

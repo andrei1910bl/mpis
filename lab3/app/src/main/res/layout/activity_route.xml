@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Ваши начальные EditText и кнопки -->
+        <EditText
+            android:id="@+id/routeEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Route part 1" />
+
+        <EditText
+            android:id="@+id/routeEditText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Route part 2" />
+
+        <Button
+            android:id="@+id/addRouteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Route Path" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/lastNameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andrei Bulavski" />
+    </LinearLayout>
+</ScrollView>
